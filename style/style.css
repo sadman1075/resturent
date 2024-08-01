@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* hero */
+
+#hero {
+    height: 740px;
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%),
+        url('../asset/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#hero .hero_content {
+    width: 864px;
+
+}
+
+#hero .hero_content .sub_title {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+}
+
+#hero .hero_content .title {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 12px;
+}
+
+#hero .hero_content .inner_title {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 20px;
+}
+
+#hero .hero_content .shop_button {
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    padding: 14px 18px 14px 18px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+}
+
+
+/* section second */
+
+.second {
+    margin-top: 100px;
+}
+
+.card_detail_p {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.card_detail_h2 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.card_1 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 48px;
+
+}
+
+.img {
+    width: 100%;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.food {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 3px;
+    width: 150px;
+    background-color: aquamarine;
+    margin: auto;
+    margin-top: 40px;
+
+
+
+
+}
+
+
+
+.offer {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 34px;
+
+
+}
+
+.details {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+/* section card ino */
+
+
+.card_info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+
+.food-img {
+    width: 100%;
+}
+
+.inside_card {
+
+    text-align: center;
+}
+
+.food_info {
+    margin-top: 136px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.message {
+    margin-top: 24px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.follow {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: auto;
+    margin-top: 72px;
+    margin-bottom: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 3px solid rgba(16, 16, 16, 0.2);
+    ;
+    border-bottom: 3px solid rgba(16, 16, 16, 0.2);
+    ;
+    padding: 30px;
+
+}
+
+
+/* available */
+
+.available-place{
+    margin: 100px 100px;
+
+}
+
+.available-place-title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.available-place-description{
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;;
+    color: rgb(16, 16, 16);
+    margin-bottom: 40px;
+}
+
+.sponsar-card{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-spnsar{
+    width: 200px;
+}
+/* footer */
+
+
+#bg {
+    background-image: linear-gradient(rgb(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url("../asset/social-bg.png");
+    width: 100%;
+
+    background-position: center;
+    background-size: cover;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+
+
+}
+
+
+.footer_div {
+    width: 100%;
+}
+
+.footer_title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(16, 16, 16);
+    padding-top: 80px;
+
+
+}
+
+.footer_description {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+    margin-top: 20px;
+    color: rgb(16, 16, 16);
+
+}
+
+
+
+
+
+
+
+
+
+.third {}
+
+@media screen and (max-width:576px) {
+    .card_1 {
+        flex-direction: column;
+    }
+
+    .card_info {
+        flex-direction: column;
+    }
+    
+.available-place{
+    margin: 10px 10px;
+
+}
+    .sponsar-card{
+        flex-direction: column;
+       
+    }
+    .img-spnsar{
+        width: 100%;
+        height: 250px;
+    }
+    
+
+}
