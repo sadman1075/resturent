@@ -5,21 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
 </head>
 <body>
-    <section id="hero">
-        <div class="hero_content">
-            <p class="sub_title">Savor the Flavors</p>
-            <h1 class="title">Experience Culinary Excellence Food Experience</h1>
-            <p class="inner_title">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock</p>
-        <div class="div">
+    <section id="hero" data-aos="zoom-out" data-aos-duration="1400">
+        <div class="hero_content" >
+            <p class="sub_title" data-aos="fade-right" data-aos-duration="1400">Savor the Flavors</p>
+            <h1 class="title" data-aos="fade-left" data-aos-duration="1400">Experience Culinary Excellence Food Experience</h1>
+            <p class="inner_title" data-aos="fade-right" data-aos-duration="1400">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock</p>
+        <div class="div" data-aos="fade-left" data-aos-duration="1400">
             <button class="shop_button">shop The Hotest Food</button>
 
         </div>
         </div>
     </section>
 
-    <section class="second">
+    <section class="second" data-aos="zoom-in" data-aos-duration="1400">
         <p class="card_detail_p">Favorite Brands</p>
         <h2 class="card_detail_h2">Your Favorite Brands Food Are Now On Sale</h2>
         <div class="card_1">
@@ -47,7 +49,7 @@
 
     </section>
     
-    <section class="card_info">
+    <section class="card_info" data-aos="zoom-out" data-aos-duration="1400">
         <div>
             <img class="food-img" src="./asset/foods.png"  alt="">
         </div>
@@ -59,7 +61,7 @@
         </div>
     </section>
 
-    <section class="available-place">
+    <section class="available-place" data-aos="zoom-in" data-aos-duration="1400">
         <h2 class="available-place-title">We Are Now Available </h2>
         <p class="available-place-description">It's the food and groceries you love, delivered.we are always here to bring our food at the right time on the right place</p>
         <div class="sponsar-card">
@@ -73,13 +75,25 @@
         </div>
     </section>
 
-    <section id="bg">
+    <section id="bg" data-aos="zoom-in" data-aos-duration="1400">
         <div class="footer_div">
             <h2 class="footer_title">We always make sure to provide you with good food</h2>
             <p class="footer_description">Don’t miss a thing! Subscribe to our newsletter</p>
             <h4 class="follow">Follow Us On</h4>
         </div>
     </section>
+
+    
+<script src="https://unpkg.com/aos@next/dist/aos.js"> </script>
+
+
+
+<script>
+AOS.init(
+{
+offset:1,
+});
+</script>
 
 </body>
 </html>
